@@ -4,7 +4,7 @@ This work was published in the  IEEE International Conference on Computer Vision
 # Data overview
 We are making available a new rainy dataset **RainDirection** with the direction information of rain streak and a new real world rainy dataset **Real3000**. You can download **RainDirection** and **Real3000** dataset from this [BaiduYun link](https://pan.baidu.com/s/1x4TuEDfTDCiZgqIKqXWnQg) (Extract code: 0113).
 ## RainDirection
-The RainDirection dataset is a synthetic rainy dataset. The rainy images in RainDirection are obtained by adding clean images from Flick2K and DIV2K dataset with synthetic labeled rain maps according to the rain model *O(x) = B(x)* + *R(x)*. Each rainy image is assigned with a direction label, the horizontal Angle of the image is zero to the right and increases the angle counterclockwise. These direction labels are used to calculate the direction loss during training.  We selected images in the folder named DIV2K_val (100 images in total) and the last 430 images from Flickr2K for validation and testing, and from these we randomly selected 200 for testing and the rest for validation. We randomly selected test data can be found in the test folder.  
+The RainDirection dataset is a synthetic rainy dataset. The rainy images in RainDirection are obtained by adding clean images from Flick2K and DIV2K dataset with synthetic labeled rain maps according to the rain model *O(x) = B(x)* + *R(x)*. Each rainy image is assigned with a direction label, the horizontal Angle of the image is zero to the right and increases the angle counterclockwise. These direction labels are used to calculate the direction loss during training.  We selected 100 images from DIV2K and the last 330 images from Flickr2K for validation and testing, and from these we randomly selected 200 for testing and the rest for validation. We randomly selected test data can be found in the test folder.  
 
 <p align="center">  
   <img src="resources/0808.png" alt="Lizard" width="400"/> <img src="resources/0814.png" alt="Lizard" width="400"/><br>
@@ -63,28 +63,6 @@ The folder structure is as follows:
               ...
               002650.png
     
-    rainy_div2k_val
-          direction
-              direction.txt
-              direction.mat
-          latent
-              0801.png
-              0802.png
-              ...
-              ...
-              0900.png
-          rainy
-              0801.png
-              0802.png
-              ...
-              ...
-              0900.png
-          streak
-              0801.png
-              0802.png
-              ...
-              ...
-              0900.png
     
     test
         direction
@@ -108,8 +86,8 @@ The folder structure is as follows:
             ...
             200.png
 ## Real3000  
-The Real3000 dataset contains 3005 real rainy images without ground truth images collected from the internet and captured by a Canon EOS 6D camera. The training
-and test set contains 2705 and 300 diverse natural outdoor images, respectively. Images numbered 1705 to 2004 were selected as the test set.  
+The Real3000 dataset contains 3000 real rainy images without ground truth images collected from the internet and captured by a Canon EOS 6D camera. The training
+and test set contains 2700 and 300 diverse natural outdoor images, respectively. Images numbered 1705 to 2004 were selected as the test set.  
 
 <p align="center">  
   <img src="resources/426.png" alt="Lizard" width="400"/> <img src="resources/464.png" alt="Lizard" width="400"/><br>
@@ -126,7 +104,7 @@ The folder structure is as follows:
       2.png
       ...
       ...
-      3005.png
+      3000.png
 ## Citation:  
   
   
