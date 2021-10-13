@@ -7,10 +7,10 @@ We are making available a new rainy dataset **RainDirection** with the direction
 The RainDirection dataset is a synthetic rainy dataset. The rainy images in RainDirection are obtained by adding clean images from Flick2K and DIV2K dataset with synthetic labeled rain maps according to the rain model *O(x) = B(x)* + *R(x)*. Each rainy image is assigned with a direction label, the horizontal Angle of the image is zero to the right and increases the angle counterclockwise. These direction labels are used to calculate the direction loss during training.  We selected images in the folder named DIV2K_val (100 images in total) and the last 430 images from Flickr2K for validation and testing, and from these we randomly selected 200 for testing and the rest for validation. We randomly selected test data can be found in the test folder.  
 
 <p align="center">  
-  <img src="resources/0808.png" alt="Lizard" width="450"/> <img src="resources/0814.png" alt="Lizard" width="450"/><br>
+  <img src="resources/0808.png" alt="Lizard" width="400"/> <img src="resources/0814.png" alt="Lizard" width="400"/><br>
 </p>
 <p align="center">
-  <img src="resources/0853.png" alt="Lizard" width="450"/> <img src="resources/0858.png" alt="Lizard" width="450"/><br>
+  <img src="resources/0853.png" alt="Lizard" width="400"/> <img src="resources/0858.png" alt="Lizard" width="400"/><br>
 </p>  
     
 The folder structure is as follows:    
@@ -112,10 +112,10 @@ The Real3000 dataset contains 3005 real rainy images without ground truth images
 and test set contains 2705 and 300 diverse natural outdoor images, respectively. Images numbered 1705 to 2004 were selected as the test set.  
 
 <p align="center">  
-  <img src="resources/426.png" alt="Lizard" width="450"/> <img src="resources/464.png" alt="Lizard" width="450"/><br>
+  <img src="resources/426.png" alt="Lizard" width="400"/> <img src="resources/464.png" alt="Lizard" width="400"/><br>
 </p>
 <p align="center">  
-  <img src="resources/442.png" alt="Lizard" width="450"/> <img src="resources/560.png" alt="Lizard" width="450"/><br>
+  <img src="resources/442.png" alt="Lizard" width="400"/> <img src="resources/560.png" alt="Lizard" width="400"/><br>
 </p>
   
 The folder structure is as follows:  
