@@ -39,8 +39,6 @@ The folder structure is as follows:
               2920.png
 
       RainDirection430test
-          direction
-              direction.txt
           latent
               1.png
               2.png
